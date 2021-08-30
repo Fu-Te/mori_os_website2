@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="The beginning of iTL story">
+    <meta name="viewport" content="width=device-width">
+    <title>森・山林IoTシステム構想</title>
+    <link rel="stylesheet" media="all" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+
+    <nav id="mainnav">
+        <p id="menuWrap"><a id="menu"><span id="menuBtn"></span></a></p>
+        <div class="panel">
+            <ul>
+                <li><a href="#header">TOP</a></li>
+                <li><a href="#sec01">問題点</a></li>
+                <li><a href="#sec02">解決策・目標</a></li>
+                <li><a href="#sec03">実現するために</a></li>
+                <li><a href="#sec04">メンバー</a></li>
+                <li><a href="#sec05">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="header">
+        <img src="images/mainImg.jpg" alt="">
+        <div id="slogan">
+            <h1>山・山林IoTシステム構想</h1>
+            <h2></h2>
+        </div>
+    </header>
+
+    <!-- VISION -->
+    <section id="sec01">
+        <header>
+            <h2>私たちの考える問題点</h2>
+        </header>
+        <div class="vision">
+            林業従事者の減少、土地所有者が木を切ることが難しくなっていること、間伐が間に合っていなかったり、切り捨て間伐の増加、木の寿命が伸びることで病気や虫が発生する問題、間伐が行われないことにより、光が入らなくなり、気の成長が止まって根が細り、土壌が緩む。それにより、涵養能力が低くなる。そして土砂崩れが起こりやすい。また、近年では山火事が増加している。
+        </div>
+    </section>
+    <!-- // VISION -->
+
+    <!-- MESSAGE -->
+    <section id="sec02">
+        <div class="wrap">
+            <p class="bg"><img src="images/sec02_01.jpg" alt=""></p>
+            <div class="txt">
+                <div class="vMid">
+                    <h2>私たちの考える解決策・目標</h2>
+                    <p>IT技術の導入により、管理にかかる手間を削減し、労働負担を低下させる。また、山火事の察知を即座にできるようにする。そして、木材が安すぎて間伐されなかったり、切り捨てされる問題を解決するために、木材の循環型社会の形成、間伐木を木の必要な人に直接届けるシステムを作り、問屋を挟まないことによる木材価値の維持など。</p>
+                </div>
+            </div>
+        </div>
+        <div id="sec02_02" class="wrap">
+            <p class="bg"><img src="images/sec02_02.jpg" alt=""></p>
+            <div class="txt">
+                <div class="vMid">
+                    <h2>私たちの目標</h2>
+                    <p>人と最先端技術、山や動物などの自然が共生する世界の形成、二酸化炭素の循環型社会の形成を目指す。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- // MESSAGE -->
+
+    <!-- SERVICE -->
+    <section id="sec03">
+        <div class="inner">
+            <ul class="col3">
+                <li>
+                    <h2>IoTシステムの概要</h2>
+                    <img src="images/circleImg01.png" width="288" height="288" alt="">
+                    <p>山や山林ではWiFiを設置すること、通信環境を整えることが難しくまた、安定した電力の確保が難しいと想定されることから、低電力かつインターネット接続ができない状況を想定し、BluetoothMeshやZigbeeのような近距離通信規格を利用した擬似的なネットワークを森や山に実装したいと考えている。</p>
+                </li>
+                <li>
+                    <h2>他データの取り込み</h2>
+                    <img src="images/circleImg02.png" width="288" height="288" alt="">
+                    <p>GISや気候情報と組み合わせることで、より正確な災害発生確率、間伐の必要性を計算する。
+                    </p>
+                </li>
+                <li>
+                    <h2>技術的課題</h2>
+                    <img src="images/circleImg03.png" width="288" height="288" alt="">
+                    <p>近接通信接続における、デバイスの位置特定方法、ボトルネックとなっているデバイス、故障しているデバイスの位置の特定が技術的課題となると予想している。また、センサを設置しても電力供給が難しいと考えられる。センサで以上が発生した時のみ通信を行うようにし、省電力化に努めるが、自然界でも発電できる方式をいくつか検討する必要がある。
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- // SERVICE -->
+
+    <!-- STORY -->
+    <section id="sec04">
+        <div class="inner">
+            <ul class="col2">
+                <li>
+                    <h2>福富哲平</h2>
+                    <p>メンバー自己紹介１概要</p>
+                </li>
+                <li>
+                    <h2>佐藤一輝</h2>
+                    <p>メンバー自己紹介２概要</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- // STORY -->
+
+    <!-- PROFILE -->
+    <section id="sec05">
+        <header>
+            <h2>PROFILE</h2>
+        </header>
+        <div class="inner">
+            <ul class="col2">
+                <li>
+                    <dl>
+                        <dt>プロジェクト名</dt>
+                        <dd>山・山林IoTシステム構想</dd>
+                        <dt>代表者名</dt>
+                        <dd>福富哲平</dd>
+                        <dd><a href="mailto:fuktep0613@gmail.com">fuktep0613@gmail.com</a></dd>
+                        <dt>メンバー名</dt>
+                        <dd>name</dd>
+                        <dd><a href="mailto:sample@sample.com">sample@sample.com</a></dd>
+                        <dt>お問い合わせ</dt>
+                        <dd><a href="https://forms.gle/ua6LRbMEU5z8bmfv6">こちら</a></dd>
+                    </dl>
+
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- // PROFILE -->
+
+    </footer>
+    <!-- シリアルキー:Vy8MXfbv-->
+</body>
+
+</html>
